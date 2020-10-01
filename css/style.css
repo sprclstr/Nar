@@ -102,23 +102,23 @@ ul, li {
 	z-index: 9;
 }
 #Header.header-fixed {
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.6);
 	transition: all 0.3s ease-in-out;
 }
 #Header.header-fixed .site-logo-wrap {
-	padding: 15px 0;
+	padding: 10px 0;
 	transition: all 0.3s ease-in-out;
 }
 #Header.header-fixed .site-logo-wrap .logo img {
-	width: 70px;
+	width: 40px;
 	transition: all 0.3s ease-in-out;
 }
 #Header.header-fixed .main-menu {
-	padding: 27px 0;
+	padding: 15px 0;
 	transition: all 0.3s ease-in-out;
 }
 #Header.header-fixed .main-menu li a {
-	padding: 5px 10px;
+	padding: 3px 10px;
 	transition: all 0.3s ease-in-out;
 }
 #Header.header-fixed a.menu-trigger {
@@ -506,6 +506,7 @@ ul, li {
 /* Contact us section style goes here */
 #ContactUs {
 	padding: 70px 0;
+
 }
 #ContactUs .contact-title {
 	font-size: 30px;
@@ -514,7 +515,8 @@ ul, li {
 	margin: 0 0 30px;
 }
 #ContactUs .contact-outer-wrapper {
-	width: 100%;
+	/*ancho original tiene 100%*/
+	width: 45%;
 	height: auto;
 	display: table;
 	margin: 0 auto;
@@ -524,7 +526,8 @@ ul, li {
 	height: 100%;
 	display: table-cell;
 	color: #333;
-	position: relative;
+	/*LINEA DE DETALLES DE CONTACTO*/
+	position: relative; 
 	padding: 40px;
 }
 #ContactUs .address-block::after {
