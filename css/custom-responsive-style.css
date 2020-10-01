@@ -88,7 +88,8 @@
   #ContactUs .address-block {
     display: block;
     width: 100%;
-    border-bottom: 1px solid #ccc;
+    /** Borde form
+    border-bottom: 1px solid #ccc;**/
     padding: 0 0 30px;
   }
   #ContactUs .address-block::after {
@@ -197,7 +198,8 @@
   #ContactUs .address-block {
     display: block;
     width: 100%;
-    border-bottom: 1px solid #ccc;
+    /** Borde form
+    border-bottom: 1px solid #ccc; **/
     padding: 0 0 30px;
   }
   #ContactUs .address-block::after {
@@ -295,7 +297,9 @@
   #ContactUs .address-block {
     display: block;
     width: 100%;
+    /* borde form
     border-bottom: 1px solid #ccc;
+    **/
     padding: 0 0 30px;
   }
   #ContactUs .address-block::after {
