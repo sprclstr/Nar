@@ -3,7 +3,7 @@
   /* header style */
   #Header .mobile-menu ul li {
     list-style: none;
-    padding: 0 0 20px 20px; 
+    padding: 5px 0 20px 22px; 
   }
   /* Hero banner style */
   #HeroBanner .hero-content h1 {
@@ -22,8 +22,9 @@
     width: 55px;
   }
   #Header.header-fixed .site-logo-wrap .logo img {
-    width: 50px;
+    width: 35px;
     transition: all 0.3s ease-in-out;
+    margin-left: 10px;
   }
   /* services style */
   #Services .services-wrapper {
@@ -146,6 +147,12 @@
   #HeroBanner .hero-content a {
     font-size: 18px;
   }
+/*#Header.header-fixed .site-logo-wrap .logo img {
+    width: 35px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 10px;
+  }*/
+  
   /* services section. style */
   #Services .each-service {
     max-width: 100%;
