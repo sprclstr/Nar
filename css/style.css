@@ -556,7 +556,8 @@ ul, li {
 	font-size: 30px;
 	color: #000;
 	text-align: center;
-	margin: 0 0 30px;
+	margin: 0 0 5px;
+	
 }
 #ContactUs .contact-outer-wrapper {
 	/*ancho original tiene 100%*/
@@ -564,6 +565,8 @@ ul, li {
 	height: auto;
 	display: table;
 	margin: 0 auto;
+	
+	
 }
 #ContactUs .address-block {
 	width: 40%;
@@ -573,8 +576,9 @@ ul, li {
 	/*LINEA DE DETALLES DE CONTACTO*/
 	position: relative; 
 	padding: 40px;
+	
 }
-#ContactUs .address-block::after {
+/* #ContactUs .address-block::after {
   position: absolute;
   content: "";
   right: 3%;
@@ -582,31 +586,38 @@ ul, li {
   height: 80%;
   background: #ccc;
   top: 10%;
-}
+  
+} */
 #ContactUs .add-title {
 	font-size: 22px;
 	font-weight: bold;
-	margin: 0 0 50px;
+	margin: 0 0 30px;
+	/* text-align: center; */
 }
 #ContactUs .c-detail {
+	width:100%;
 	margin-bottom: 20px;
+	text-align: center;
 }
 #ContactUs .c-detail:last-child {
 	margin-bottom: 0;
-}
+	}
 #ContactUs .c-detail .c-icon {
-  width: 8%;
   display: inline-block;
   font-size: 20px;
   vertical-align: top;
+  text-align: center;
 }
+/* numero de telefono y correo */
 #ContactUs .c-detail .c-info {
-	width: 90%;
 	display: inline-block;
 	vertical-align: top;
-}
+	padding: 0 0px 0 5px;
+}	
 #ContactUs .c-detail span .fa {
 	vertical-align: top;
+	box-align:right;
+	/* EL BOX ALIGN DE ARRIBA TAL VEZ NO VA */
 }
 #ContactUs .form-wrap {
 	width: 60%;
